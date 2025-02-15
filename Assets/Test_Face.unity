@@ -402,8 +402,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1300155686}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1240594227
@@ -526,7 +525,7 @@ Transform:
   - {fileID: 700784218}
   - {fileID: 42627463}
   - {fileID: 1240594228}
-  m_Father: {fileID: 908638002}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1300155687
 SpriteRenderer:
@@ -746,3 +745,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1440782255}
   - {fileID: 908638002}
+  - {fileID: 1300155686}
