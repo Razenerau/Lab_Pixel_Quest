@@ -8,6 +8,8 @@ TagManager:
   - Death
   - Health
   - Coin
+  - Ground
+  - Enemy
   layers:
   - Default
   - TransparentFX
