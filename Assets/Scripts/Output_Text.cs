@@ -7,18 +7,24 @@ using UnityEngine.UI;
 public class Test : MonoBehaviour
 {
     public int frameNumber = 0;
-    TextMesh textMesh;
+    public TextMeshPro textMesh;
+    private Vector3 position = Vector3.zero;
 
     // Start is called before the first frame update
     void Start()
     {
-        textMesh = GetComponent<TextMesh>();
+        Debug.Log(position);
+
+        if(textMesh == null )
+        {
+            Debug.Log("textMesh not found");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        frameNumber++;
-        textMesh.text = "" + frameNumber;
+        //frameNumber++;
+        //textMesh.text = "" + frameNumber;
     }
 }
