@@ -35,10 +35,6 @@ public class Player : MonoBehaviour
                 string thisLevel = SceneManager.GetActiveScene().name;
                 SceneManager.LoadScene(thisLevel);
                 break;
-            case Structs.Tags.FINISHTAG:
-                Structs.LevelManager.isWhitePlayerFinish = true;
-                if(Structs.LevelManager.isBlackPlayerFinish == true) SceneManager.LoadScene(_NEXT_LEVEL);
-                break;
             case Structs.Tags.COIN:
                 Destroy(collision.gameObject);
                 break;

@@ -36,8 +36,8 @@ public class PlayerTwo : MonoBehaviour
                 SceneManager.LoadScene(thisLevel);
                 break;
             case Structs.Tags.FINISHTAG:
-                Structs.LevelManager.isBlackPlayerFinish = true;
-                if (Structs.LevelManager.isWhitePlayerFinish == true) SceneManager.LoadScene(_NEXT_LEVEL);
+                Structs.LevelManager.isPlayerTwoFinish = true;
+                if (Structs.LevelManager.isPlayerOneFinish == true) SceneManager.LoadScene(_NEXT_LEVEL);
                 break;
         }
     }

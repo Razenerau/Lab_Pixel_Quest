@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4728031342664095476}
   - component: {fileID: 4303869500105994288}
   - component: {fileID: 4826025492557340032}
+  - component: {fileID: 1621168496674242438}
   m_Layer: 0
-  m_Name: Finish
+  m_Name: FinishTwo
   m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 4330132430222584215}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.6, y: -5.4, z: 0}
+  m_LocalPosition: {x: -29.7, y: 5.8, z: 0}
   m_LocalScale: {x: 2.6, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -130,3 +131,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &1621168496674242438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4330132430222584215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bf1e78eb810beb46a2d1241bc3078fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

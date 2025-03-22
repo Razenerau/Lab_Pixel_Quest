@@ -10,19 +10,21 @@ public class Structs : MonoBehaviour
         public const string ENEMYTAG = "Enemy";
         public const string FINISHTAG = "Finish";
         public const string COIN = "Coin";
+        public const string PLAYERONE = "PlayerOne";
+        public const string PLAYERTWO = "PlayerTwo";
     }
 
     public struct LevelManager
     {
-        private int _levelIndex;
-        public int levelIndex 
+        private static int _levelIndex;
+        public static int levelIndex 
         {
             get {  return _levelIndex; }
             set { _levelIndex = value; }
         }
 
-        public static bool isWhitePlayerFinish;
-        public static bool isBlackPlayerFinish;
+        public static bool isPlayerOneFinish;
+        public static bool isPlayerTwoFinish;
 
         /*
         public bool whitePlayerFinish
