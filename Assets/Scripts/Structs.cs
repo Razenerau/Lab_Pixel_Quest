@@ -9,6 +9,7 @@ public class Structs : MonoBehaviour
         public const string GROUNDTAG = "Ground";
         public const string ENEMYTAG = "Enemy";
         public const string FINISHTAG = "Finish";
+        public const string COIN = "Coin";
     }
 
     public struct LevelManager
