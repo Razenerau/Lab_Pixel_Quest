@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7734932197368523894
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 348208793331330537, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_ForceMagnitude
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4736454406459033485, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.98902607
+      objectReference: {fileID: 0}
+    - target: {fileID: 4736454406459033485, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4736454406459033485, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103713838301146051, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103713838301146051, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103713838301146051, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103713838301146051, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.49026024
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103713838301146051, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103713838301146051, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_DrawMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322388954161649086, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322388954161649086, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322388954161649086, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322388954161649086, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322388954161649086, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322388954161649086, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322388954161649086, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322388954161649086, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322388954161649086, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322388954161649086, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8903049564884579664, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}
+      propertyPath: m_Name
+      value: BoostPad Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20aee5645fd0afe44a5f29554511d00d, type: 3}

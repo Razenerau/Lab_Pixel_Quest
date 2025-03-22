@@ -10,6 +10,8 @@ TagManager:
   - Coin
   - Ground
   - Enemy
+  - PlayerOne
+  - PlayerTwo
   layers:
   - Default
   - TransparentFX
